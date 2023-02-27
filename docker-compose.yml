@@ -1,7 +1,7 @@
 version: "3.1"
 services:
   fox-local:
-    build:
+    build: https://github.com/rand12345/fox-local.git
       context: .
       dockerfile: Dockerfile
     container_name: fox-local
